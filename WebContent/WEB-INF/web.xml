@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>pack.Update</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Select</servlet-name>
+    <servlet-class>pack.Select</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Insert</servlet-name>
+    <servlet-class>pack.Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>pack.Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Data</servlet-name>
+    <servlet-class>pack.Data</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/upd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select</servlet-name>
+    <url-pattern>/sel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Insert</servlet-name>
+    <url-pattern>/ins</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/del</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Data</servlet-name>
+    <url-pattern>/dat</url-pattern>
+  </servlet-mapping>
+</web-app>
